@@ -7,6 +7,7 @@ const app = Vue.createApp({
         { title: "The end ", author: "gon", isFav: true },
         { title: "love you ", author: "tran", isFav: false },
         { title: "honey moon ", author: "be tran", isFav: true },
+        { title: "honey moon ", author: "be tran", isFav: true },
       ],
       age: "21",
       x: 0,
@@ -34,6 +35,9 @@ const app = Vue.createApp({
   computed: {
     filteredBooks() {
       return this.books.filter((book) => book.isFav);
+    },
+    sum() {
+      return this.books.length;
     },
   },
 });
