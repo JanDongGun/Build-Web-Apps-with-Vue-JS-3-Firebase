@@ -2,8 +2,11 @@ const app = Vue.createApp({
   data() {
     return {
       showbooks: true,
-      title: "The end of fucking world",
-      author: "Gon",
+      books: [
+        { title: "The end ", author: "gon" },
+        { title: "love you ", author: "tran" },
+        { title: "honey moon ", author: "be tran" },
+      ],
       age: "21",
       x: 0,
       y: 0,
