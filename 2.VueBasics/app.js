@@ -4,9 +4,9 @@ const app = Vue.createApp({
       showbooks: true,
       href: "https://fb.com",
       books: [
-        { title: "The end ", author: "gon" },
-        { title: "love you ", author: "tran" },
-        { title: "honey moon ", author: "be tran" },
+        { title: "The end ", author: "gon", isFav: true },
+        { title: "love you ", author: "tran", isFav: false },
+        { title: "honey moon ", author: "be tran", isFav: true },
       ],
       age: "21",
       x: 0,
