@@ -26,7 +26,11 @@
       <a :href="href">Face book</a>
       <div v-if="showbooks">
         <ul>
-          <li v-for="book in books" :class="{fav: book.isFav}">
+          <li
+            v-for="book in filteredBooks"
+            @click="book.isFav = !book.isFav"
+            :class="{fav: book.isFav}"
+          >
             <h3>{{book.title}}</h3>
             <p>{{book.author}}</p>
           </li>
