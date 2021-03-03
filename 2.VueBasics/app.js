@@ -6,7 +6,7 @@ const app = Vue.createApp({
       books: [
         { title: "The end ", author: "gon", isFav: true },
         { title: "love you ", author: "tran", isFav: false },
-        { title: "honey moon ", author: "be tran", isFav: true },
+        { title: "honey moon ",  author: "be tran", isFav: true },
         { title: "honey moon ", author: "be tran", isFav: true },
       ],
       age: "21",
